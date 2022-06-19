@@ -1,7 +1,8 @@
 import React from 'react';
 import './about.css';
+import ME from '../../assets/me_2.png'
 import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
+import { FaCode } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 const About = () => {
@@ -13,30 +14,33 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src="https://live.staticflickr.com/3693/9391846254_b2fcdaa360_b.jpg" alt="Alan Turing" />
+            <img src={ME} alt="Bruno Costa" />
           </div>
         </div>
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
+              <a  href="https://www.moneytimes.com.br/santander-anuncia-vencedores-do-programa-empreenda/#:~:text=Bruno%20Costa%20Candia%2C%20estudante%20do%20Instituto%20Nacional%20de%20Telecomunica%C3%A7%C3%B5es%20(Inatel)" target="_blank" rel="noreferrer" >
               <FaAward className='about__icon' />
-              <h5>Experiências</h5>
-              <small>+3 Anos Trabalhando</small>
+              <h5>Prêmios</h5>
+              <small>Empreenda Santander 2019</small>
+              </a>
             </article>
             <article className="about__card">
-              <FiUsers className='about__icon' />
-              <h5>Clientes</h5>
-              <small>+200 no mundo todo</small>
+              <FaCode className='about__icon' />
+              <h5>Experiência</h5>
+              <small>+4 anos como Desenvolvedor</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className='about__icon' />
               <h5>Projetos</h5>
-              <small>+80 Completos</small>
+              <small>+20 Completos</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat est id vel repudiandae optio
-            Saepe perferendis facere reiciendis explicabo delectus commodi dignissimos consectetu optio
-            Ex illum possimus veritatis eos vitae impedit vel sit nam.</p>
+          <p>Desenvolvedor de Software e UX/UI Designer, 
+            fundador da Aurem e estudante de Engenharia de 
+            Controle de Automação pelo Instituto Nacional de Telecomunicações - Inatel.
+            Vencedor do prêmio Empreende Santander 2019.</p>
           <a href="#contact" className='btn btn-primary'>Contato</a>
         </div>
       </div>

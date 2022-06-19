@@ -11,32 +11,32 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UX/UI Design</h3>
+            <h3>Design</h3>
           </div>
           <ul className='service__list'>
             <li>
               <div>
                 <BiCheck className='service__list-icon' />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>UX/UI Design</p>
             </li>
             <li>
               <div>
                 <BiCheck className='service__list-icon' />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Pesquisa de Usuário</p>
             </li>
             <li>
               <div>
                 <BiCheck className='service__list-icon' />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Criação de Logotipo</p>
             </li>
             <li>
               <div>
                 <BiCheck className='service__list-icon' />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Prototipação</p>
             </li>
           </ul>
         </article>
@@ -49,38 +49,56 @@ const Services = () => {
               <div>
                 <BiCheck className='service__list-icon' />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Arquitetura do Site</p>
             </li>
             <li>
               <div>
                 <BiCheck className='service__list-icon' />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Codificação Atualizada</p>
+            </li>
+            <li>
+              <div>
+                <BiCheck className='service__list-icon' />
+              </div>
+              <p>Carregamento rápido</p>
+            </li>
+            <li>
+              <div>
+                <BiCheck className='service__list-icon' />
+              </div>
+              <p>Sites Responsivos</p>
             </li>
           </ul>
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Desenvolvimento Mobile</h3>
+            <h3>Ilustração</h3>
           </div>
           <ul className='service__list'>
             <li>
               <div>
                 <BiCheck className='service__list-icon' />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Logo</p>
             </li>
             <li>
               <div>
                 <BiCheck className='service__list-icon' />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Identidade Visual</p>
             </li>
             <li>
               <div>
                 <BiCheck className='service__list-icon' />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Aplicação da Marca</p>
+            </li>
+            <li>
+              <div>
+                <BiCheck className='service__list-icon' />
+              </div>
+              <p>Conteúdo para Redes Sociais</p>
             </li>
           </ul>
         </article>

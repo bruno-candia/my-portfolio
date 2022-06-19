@@ -28,6 +28,7 @@
 
 .about__me-image:hover{
   transform: rotate(0);
+  filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
 
 .about__cards{

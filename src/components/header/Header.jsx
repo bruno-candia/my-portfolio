@@ -10,8 +10,8 @@ const Header = (props) => {
     <header>
       <div className='container header__container'>
         <h5>Olá, me chamo</h5>
-        <h1>Alan Turing</h1>
-        <h5 className='text-light'>Front-End Developer</h5>
+        <h1>Bruno Costa</h1>
+        <h5 className='text-light'>Desenvolvedor de Software e UX/UI Design</h5>
         <CTA />
         <HeaderSocial/>
 
